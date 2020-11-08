@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<meta charset="UTF-8">
+	<title>contactpage</title>
 </head>
 <body>
 	<header>
@@ -16,13 +18,41 @@
 			<li><a href="./eusolar.html">Eusolar</a></li>
 		</ul>
 	</nav>	
+	<section class="box">
+		<form action="http:// i-want-solar-energy.com/testform.php">
+			<fieldset>
+  				<legend>Geslacht</legend>
+  					<label for="name">name:</label>
+  					<input type="text" id="name" name="name">
+  					<p></p>
+  					<label for="email">email:</label>
+  					<input type="text" id="email" name="email">
+  					<p></p>
+  					<label for="message">message:</label>
+  					<textarea> </textarea>  			
+ 					<input type="submit" value="Submit">
+			</fieldset>
+		</form>
 
-	<aside>
-		<a href="http://www.ikwilzonneenergie.nl">
-			<img src="./img/EasySolar.jpg">
-			<img src="./img/GelAndAgm.jpg">
-			<img src="./img/StecaSolarix.jpg">
-		</a>
-	</aside>
+		<aside>
+			<a href="http://www.ikwilzonneenergie.nl">
+				<img src="./img/GelAndAgm.jpg" id="imgbattery"  alt="GelAndAgm product image">
+			</a>
+			<p></p>
+			<a href="http://www.ikwilzonneenergie.nl">
+				<img src="./img/EasySolar.jpg" id="imgsteca"  alt="Steca product image">
+			</a>
+			<p></p>
+			<a href="http://www.ikwilzonneenergie.nl">
+				<img src="./img/StecaSolarix.jpg" id="imgsolar"  alt="Stecasolar product image">
+			</a>
+		</aside>
+	</section>
+	<footer>
+		<p> &copy; Matthijs Volman</p>
+	</footer>
+	<section id="cookies">
+		<p>cookie statement</p>
+	</section>
 </body>
 </html>
