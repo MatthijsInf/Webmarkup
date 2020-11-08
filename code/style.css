@@ -3,12 +3,6 @@ body{
 	background-color: #FFFF
 }
 
-a:hover{
-	color: #ff0000;
-}
-a:active {
-  color: #0000FF;
-}
 .container{
 	flex-wrap: wrap;
 	display: flex;
@@ -81,6 +75,7 @@ ul{
 	column-count: 3
 }
 
+
 #logo{
   max-width: 23%;
   height: auto;
@@ -104,10 +99,8 @@ height: auto;
   position: fixed;
   bottom: 0;
   right: 0;
+  background-color: #FFF;
   opacity:	50%;
-  border-color: #2196F3
-  border-style: double;
-  border-width: 2px;
   background-color: #FA0;
 }
 
